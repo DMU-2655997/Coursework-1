@@ -1,0 +1,66 @@
+body{
+background-color:black;
+}
+/*changes the sites base colour to black */
+
+.Menu{
+  display: flex;
+  justify-content: space-around;
+}
+/* this is splitting the menu across the top of the page in a flex box*/
+nav a {
+color: white;
+padding: 10px;
+flex-grow: 2;
+text-align: center;
+background-color: darkred;
+font-size: 40px;
+outline-style: solid; color: white;
+}
+/* this is creating the style for the menu, it is expanding the background through the flex grow element, it is aslo aliging the text to center and creating a white border*/
+footer{
+  color: White;
+}
+/*chnages the footer font colour */
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  background-color: darkred; color: White;font-size: 30px
+border: 1px black solid;
+  border-top: 3px white dashed;
+    border-radius: 3px;
+}
+/*this is centering the first headng and giving it a background along with a white border. this gives the site a more aseteicaly pleasing presance. It is also aliging the text to center */
+
+h2{
+  text-align: center;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px
+
+  }
+/* this is plcing the second heading in the center and changing its font size to further distinguish it*/
+
+.synopsis{
+  text-align: center;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/*this is specifcaly changing the synopsis , dictated by the .synopisis element, it is being placed in the center and changing the font type to a sans serif font making it more appropiate for large text  */
+
+img{
+
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin right: 20px;
+}
+/*this is setting the size for the cast images and moving them to the left */
+
+p{
+  font-size: 40px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/*this is changing the text size, colour and font for anything written in the paragraph element  */
